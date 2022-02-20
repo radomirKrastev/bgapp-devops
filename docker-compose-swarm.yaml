@@ -11,7 +11,7 @@ services:
         networks:
             - app-network
     db:
-        image: rkrastev/bgapp-web
+        image: rkrastev/bgapp-db
         networks:
             - app-network
         environment:
